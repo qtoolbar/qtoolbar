@@ -91,10 +91,18 @@ support at quero.at
 ## 5 Registry keys ##
 
 * Main settings under Windows 2000, XP
+  ```
   [HKEY_CURRENT_USER\Software\Quero Toolbar]
+  ```
 * Main settings under Windows 7 and Windows Vista
+  ```
   [HKEY_CURRENT_USER\Software\AppDataLow\Software\Quero Toolbar]
+  ```
 * Main settings under Windows 8 and Windows 10
+  ```
   [HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\InternetRegistry\Software\Quero Toolbar]
+  ```
 * Default search profile key
+  ```
   [HKEY_USERS\.DEFAULT\Software\Quero Toolbar\Profiles]
+  ```

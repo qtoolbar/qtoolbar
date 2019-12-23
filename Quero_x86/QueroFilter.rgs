@@ -1,0 +1,23 @@
+HKCR
+{
+	Quero.QueroFilter.1 = s 'QueroFilter Class'
+	{
+		CLSID = s '{65AD9A7A-9E52-43D2-AA3D-02FBC9E535B8}'
+	}
+	Quero.QueroFilter = s 'QueroFilter Class'
+	{
+		CLSID = s '{65AD9A7A-9E52-43D2-AA3D-02FBC9E535B8}'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {65AD9A7A-9E52-43D2-AA3D-02FBC9E535B8} = s 'QueroFilter Class'
+		{
+			ProgID = s 'Quero.QueroFilter.1'
+			VersionIndependentProgID = s 'Quero.QueroFilter'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+		}
+	}
+}

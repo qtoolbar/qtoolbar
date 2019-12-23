@@ -1,0 +1,9 @@
+; Quero.def : Declares the module parameters.
+
+LIBRARY      "Quero.DLL"
+
+EXPORTS
+	DllCanUnloadNow     PRIVATE
+	DllGetClassObject   PRIVATE
+	DllRegisterServer   PRIVATE
+	DllUnregisterServer	PRIVATE

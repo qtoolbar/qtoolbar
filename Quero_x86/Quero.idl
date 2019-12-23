@@ -1,0 +1,59 @@
+// Quero.idl : IDL source for Quero.dll
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (Quero.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+	[
+		object,
+		uuid(3DBF9F47-B2FD-4A08-AF1E-653F5551217F),
+		dual,
+		helpstring("IQueroBand Interface"),
+		pointer_default(unique)
+	]
+	interface IQueroBand : IDispatch
+	{
+	};
+	
+	[
+		object,
+		uuid(057CD07D-8F03-47C5-809B-DF846BCEBB68),
+		dual,
+		helpstring("IQueroFilter Interface"),
+		pointer_default(unique)
+	]
+	interface IQueroFilter : IDispatch
+	{
+	};
+
+[
+	uuid(8A2092A7-55D2-433F-B700-4D36902B39B5),
+	version(1.0),
+	helpstring("Quero Toolbar Type Library")
+]
+library QUEROLib
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+	[
+		uuid(A411D7F4-8D11-43EF-BDE4-AA921666388A),
+		helpstring("Quero Toolbar Class")
+	]
+	coclass QueroBand
+	{
+		[default] interface IQueroBand;
+	};
+	
+	[
+		uuid(65AD9A7A-9E52-43D2-AA3D-02FBC9E535B8),
+		helpstring("Quero HTML Filter Class")
+	]
+	coclass QueroFilter
+	{
+		[default] interface IQueroFilter;
+	};
+};

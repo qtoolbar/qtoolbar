@@ -1,0 +1,86 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Quero - Win32 Unicode Release MinDependency--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Viktor\LOCALS~1\Temp\RSP175.tmp" with contents
+[
+/nologo /MT /W3 /Zd /O1 /D "NDEBUG" /D "_UNICODE" /D "_ATL_STATIC_REGISTRY" /D "_WIN32" /D "_WINDOWS" /D "_USRDLL" /D "ISOLATION_AWARE_ENABLED" /Fp"ReleaseUMinDependency/Quero.pch" /Yu"stdafx.h" /Fo"ReleaseUMinDependency/" /Fd"ReleaseUMinDependency/" /FD /c 
+"D:\Data\quero\Quero\ComboQuero.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Viktor\LOCALS~1\Temp\RSP175.tmp" 
+Creating temporary file "C:\DOCUME~1\Viktor\LOCALS~1\Temp\RSP176.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comctl32.lib winmm.lib wininet.lib Usp10.lib shlwapi.lib /nologo /subsystem:windows /dll /incremental:no /pdb:"ReleaseUMinDependency/Quero.pdb" /map:"ReleaseUMinDependency/Quero.map" /machine:I386 /def:".\Quero.def" /out:"ReleaseUMinDependency/Quero.dll" /implib:"ReleaseUMinDependency/Quero.lib" /MAPINFO:LINES /MAPINFO:EXPORTS 
+.\ReleaseUMinDependency\AutoComplete.obj
+.\ReleaseUMinDependency\ButtonBar.obj
+.\ReleaseUMinDependency\ComboEngine.obj
+.\ReleaseUMinDependency\ComboQuero.obj
+.\ReleaseUMinDependency\ContentFilter.obj
+.\ReleaseUMinDependency\FavIcon.obj
+.\ReleaseUMinDependency\IDNA.obj
+.\ReleaseUMinDependency\LogoToolbar.obj
+.\ReleaseUMinDependency\NavBar.obj
+.\ReleaseUMinDependency\OLEDataObject.obj
+.\ReleaseUMinDependency\OLEDropSource.obj
+.\ReleaseUMinDependency\OLEEnumFormat.obj
+.\ReleaseUMinDependency\Profiles.obj
+.\ReleaseUMinDependency\QDebug.obj
+.\ReleaseUMinDependency\QEditCtrl.obj
+.\ReleaseUMinDependency\QHTMLFilter.obj
+.\ReleaseUMinDependency\QToolbar.obj
+.\ReleaseUMinDependency\Quero.obj
+.\ReleaseUMinDependency\QueroBand.obj
+.\ReleaseUMinDependency\RedirectRequest.obj
+.\ReleaseUMinDependency\SearchAnimation.obj
+.\ReleaseUMinDependency\StdAfx.obj
+.\ReleaseUMinDependency\Toolbar.obj
+.\ReleaseUMinDependency\ToolbarIcons.obj
+.\ReleaseUMinDependency\UIEditInplace.obj
+.\ReleaseUMinDependency\UIListBox.obj
+.\ReleaseUMinDependency\UIOptionsAdBlocker.obj
+.\ReleaseUMinDependency\UIOptionsAdvanced.obj
+.\ReleaseUMinDependency\UIOptionsAppearance.obj
+.\ReleaseUMinDependency\UIOptionsProfiles.obj
+.\ReleaseUMinDependency\UIOptionsPropSheet.obj
+.\ReleaseUMinDependency\UIOptionsSecurity.obj
+.\ReleaseUMinDependency\UIOptionsSettings.obj
+.\ReleaseUMinDependency\UIResizeWindow.obj
+.\ReleaseUMinDependency\UISearchEngine.obj
+.\ReleaseUMinDependency\UISearchProfile.obj
+.\ReleaseUMinDependency\UIWarning.obj
+.\ReleaseUMinDependency\UIWhiteList.obj
+.\ReleaseUMinDependency\UIZoomFactor.obj
+.\ReleaseUMinDependency\Quero.res
+]
+Creating command line "link.exe @C:\DOCUME~1\Viktor\LOCALS~1\Temp\RSP176.tmp"
+Creating temporary file "C:\DOCUME~1\Viktor\LOCALS~1\Temp\RSP177.bat" with contents
+[
+@echo off
+if "%OS%"=="" goto NOTNT
+if not "%OS%"=="Windows_NT" goto NOTNT
+regsvr32 /s /c ".\ReleaseUMinDependency\Quero.dll"
+echo regsvr32 exec. time > ".\ReleaseUMinDependency\regsvr32.trg"
+goto end
+:NOTNT
+echo Warning : Cannot register Unicode DLL on Windows 95
+:end
+]
+Creating command line "C:\DOCUME~1\Viktor\LOCALS~1\Temp\RSP177.bat"
+Compiling...
+ComboQuero.cpp
+Linking...
+   Creating library ReleaseUMinDependency/Quero.lib and object ReleaseUMinDependency/Quero.exp
+<h3>Output Window</h3>
+Performing registration
+
+
+
+<h3>Results</h3>
+Quero.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

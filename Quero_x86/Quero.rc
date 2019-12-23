@@ -1,0 +1,871 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+#ifndef APSTUDIO_INVOKED
+#include "Build.h"
+#endif
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Neutral (Default) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_NEUD)
+#ifdef _WIN32
+LANGUAGE LANG_NEUTRAL, SUBLANG_DEFAULT
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// HTML
+//
+
+ABOUT.HTML              HTML    MOVEABLE PURE   "HTML_about.html"
+INSTALLED.HTML          HTML    MOVEABLE PURE   "HTML_installed.html"
+QTOOLBAR.GIF            HTML    MOVEABLE PURE   "qtoolbar.gif"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// 24
+//
+
+2                       24      MOVEABLE PURE   "Quero.dll.manifest"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_QUERO               ICON    DISCARDABLE     "button_quero.ico"
+IDI_QUERO_WHITE         ICON    DISCARDABLE     "button_quero_white.ico"
+IDI_NAV_BACK            ICON    DISCARDABLE     "nav_back.ico"
+IDI_NAV_BACK_HOT        ICON    DISCARDABLE     "nav_back_hot.ico"
+IDI_NAV_BACK_DISABLED   ICON    DISCARDABLE     "nav_back_disabled.ico"
+IDI_NAV_FORWARD         ICON    DISCARDABLE     "nav_forward.ico"
+IDI_NAV_FORWARD_HOT     ICON    DISCARDABLE     "nav_forward_hot.ico"
+IDI_NAV_FORWARD_DISABLED ICON    DISCARDABLE     "nav_forward_disabled.ico"
+IDI_NAV_REFRESH         ICON    DISCARDABLE     "nav_refresh.ico"
+IDI_NAV_REFRESH_HOT     ICON    DISCARDABLE     "nav_refresh_hot.ico"
+IDI_NAV_STOP            ICON    DISCARDABLE     "nav_stop.ico"
+IDI_NAV_STOP_HOT        ICON    DISCARDABLE     "nav_stop_hot.ico"
+IDI_NAV_HOME            ICON    DISCARDABLE     "nav_home.ico"
+IDI_NAV_HOME_HOT        ICON    DISCARDABLE     "nav_home_hot.ico"
+IDI_SEARCH              ICON    DISCARDABLE     "icon_search.ico"
+IDI_SEARCH_NOTFOUND     ICON    DISCARDABLE     "icon_search_notfound.ico"
+IDI_URL                 ICON    DISCARDABLE     "icon_url.ico"
+IDI_BIN                 ICON    DISCARDABLE     "icon_bin.ico"
+IDI_IDN                 ICON    DISCARDABLE     "icon_idn.ico"
+IDI_123                 ICON    DISCARDABLE     "icon_123.ico"
+IDI_LOCK                ICON    DISCARDABLE     "icon_lock.ico"
+IDI_BUTTON_GO           ICON    DISCARDABLE     "button_go.ico"
+IDI_BUTTON_GO_HOT       ICON    DISCARDABLE     "button_go_hot.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_SHIELD              BITMAP  DISCARDABLE     "shield.bmp"
+#endif    // Neutral (Default) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// German (Germany) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+#ifdef _WIN32
+LANGUAGE LANG_GERMAN, SUBLANG_GERMAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""Build.h""\r\n"
+    "#endif\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "1 TYPELIB ""Quero.tlb""\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // German (Germany) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU MENU DISCARDABLE 
+BEGIN
+    POPUP "Quero"
+    BEGIN
+        POPUP "&Find on Page"
+        BEGIN
+            MENUITEM "(empty)",                     ID_QUERO_FINDONPAGE_EMPTY
+            , GRAYED
+        END
+        MENUITEM "&Highlight",                  ID_QUERO_HIGHLIGHT
+        MENUITEM SEPARATOR
+        MENUITEM "Hid&e Flash Ads",             ID_QUERO_HIDEFLASHADS
+        MENUITEM "&Block Ads",                  ID_QUERO_BLOCKADS
+        MENUITEM "Block &Pop-ups",              ID_QUERO_BLOCKPOPUPS
+        MENUITEM SEPARATOR
+        POPUP "&Search Profile"
+        BEGIN
+            MENUITEM "(empty)",                     ID_QUERO_PROFILES_EMPTY
+            , GRAYED
+        END
+        POPUP "&Default Engine"
+        BEGIN
+            MENUITEM "(emtpy)",                     ID_QUERO_DEFAULTENGINE_EMPTY
+            , GRAYED
+        END
+        POPUP "&Resize Window"
+        BEGIN
+            MENUITEM "&Auto Maximize",              ID_QUERO_RESIZEWINDOW_AUTO_MAXIMIZE
+
+            MENUITEM SEPARATOR
+            MENUITEM "640x480",                     ID_QUERO_WINDOWSIZE_640X480
+
+            MENUITEM "800x600",                     ID_QUERO_WINDOWSIZE_800X600
+
+            MENUITEM "880x660",                     ID_QUERO_WINDOWSIZE_880X660
+
+            MENUITEM "880x720",                     ID_QUERO_WINDOWSIZE_880X720
+
+            MENUITEM "880x960",                     ID_QUERO_WINDOWSIZE_880X960
+
+            MENUITEM "1024x768",                    ID_QUERO_WINDOWSIZE_1024X768
+
+            MENUITEM "&Full Screen",                ID_QUERO_WINDOWSIZE_FULLSCREEN
+
+            MENUITEM SEPARATOR
+            MENUITEM "&Custom...",                  ID_QUERO_RESIZEWINDOW_CUSTOM
+
+        END
+        POPUP "&Zoom"
+        BEGIN
+            MENUITEM "50%",                         ID_QUERO_ZOOM_50
+            MENUITEM "80%",                         ID_QUERO_ZOOM_80
+            MENUITEM "90%",                         ID_QUERO_ZOOM_90
+            MENUITEM "100%",                        ID_QUERO_ZOOM_100
+            MENUITEM "110%",                        ID_QUERO_ZOOM_110
+            MENUITEM "120%",                        ID_QUERO_ZOOM_120
+            MENUITEM "150%",                        ID_QUERO_ZOOM_150
+            MENUITEM "200%",                        ID_QUERO_ZOOM_200
+            MENUITEM "400%",                        ID_QUERO_ZOOM_400
+            MENUITEM SEPARATOR
+            MENUITEM "&Custom...",                  ID_QUERO_CUSTOM_ZOOM
+            MENUITEM SEPARATOR
+            MENUITEM "&CSS Zoom",                   ID_QUERO_CSS_ZOOM
+            MENUITEM "&IE Zoom",                    ID_QUERO_OPTICAL_ZOOM
+        END
+        MENUITEM "&Clear History",              ID_QUERO_CLEARHISTORY
+        MENUITEM "&Options",                    ID_QUERO_OPTIONS
+        MENUITEM SEPARATOR
+        MENUITEM "&About Quero",                ID_QUERO_ABOUT
+    END
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 8,0,0,0
+ PRODUCTVERSION 8,0,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "Viktor Krammer\0"
+            VALUE "FileDescription", "Quero Toolbar for Internet Explorer\0"
+            VALUE "FileVersion", "8, 0, 0, 0\0"
+            VALUE "InternalName", "Quero\0"
+            VALUE "LegalCopyright", "© 2013 Viktor Krammer\0"
+            VALUE "LegalTrademarks", "Quero (CTM)\0"
+            VALUE "OriginalFilename", "Quero.dll\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "Quero Toolbar\0"
+            VALUE "ProductVersion", "8, 0, 0, 0\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// REGISTRY
+//
+
+IDR_QUEROBAND           REGISTRY DISCARDABLE    "QueroBand.rgs"
+IDR_QUEROFILTER         REGISTRY DISCARDABLE    "QueroFilter.rgs"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_OPTIONS_SETTINGS DIALOGEX 0, 0, 225, 276
+STYLE DS_MODALFRAME | WS_POPUP | WS_CLIPCHILDREN | WS_CAPTION | WS_SYSMENU
+CAPTION "Settings"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "Navigation",IDC_STATIC,5,5,215,80,0,WS_EX_TRANSPARENT
+    CONTROL         "Address &navigation",IDC_ADDRESS_NAVIGATION,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,15,20,155,10
+    CONTROL         "Show &address",IDC_CHKSHOWURL,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,15,32,155,10
+    CONTROL         "&Enable Internationalized Domain Names",
+                    IDC_CHKIDNSUPPORT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    15,44,155,10
+    CONTROL         "&Page loading animation",IDC_PAGE_LOADING_ANIMATION,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,56,155,10
+    CONTROL         "Save a&ddress history",IDC_SAVE_ADDRESS_HISTORY,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,15,68,155,10
+    GROUPBOX        "Search",IDC_STATIC,5,89,215,91,0,WS_EX_TRANSPARENT
+    CONTROL         "Show &search terms while searching",
+                    IDC_SHOW_SEARCH_TERMS_WHILE_SEARCHING,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,15,104,155,10
+    CONTROL         "&Highlight search terms",IDC_CHKHIGHLIGHT,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,15,116,155,10
+    CONTROL         "&Use different highlight colors",
+                    IDC_HIGHLIGHT_IN_DIFFERENT_COLORS,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,15,128,148,10
+    CONTROL         "Narrow search by &country ",IDC_CHKSEARCHCOUNTRY,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,15,140,155,10
+    CONTROL         "Sa&ve search history",IDC_SAVE_SEARCH_HISTORY,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,15,152,155,10
+    CONTROL         "&Remember last search",IDC_REMEMBER_LAST_SEARCH,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,15,164,155,10
+    GROUPBOX        "Type && Find",IDC_STATIC,5,184,215,69,0,
+                    WS_EX_TRANSPARENT
+    LTEXT           "Quick Type",IDC_STATIC,15,199,170,8
+    CONTROL         "&Jump to search box when I start typing",IDC_QUICK_TYPE,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,208,165,10
+    LTEXT           "Quick Find",IDC_STATIC,15,224,170,8
+    CONTROL         "Search &for text as I type",IDC_QUICK_FIND,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,15,234,165,10
+    EDITTEXT        IDC_QUERO_VERSION,5,260,215,14,ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER
+END
+
+IDD_WARNING DIALOG DISCARDABLE  0, 0, 305, 110
+STYLE DS_MODALFRAME | WS_POPUP | WS_CLIPCHILDREN | WS_CAPTION | WS_SYSMENU
+CAPTION "Quero Security Warning"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    DEFPUSHBUTTON   "Cancel",IDCANCEL,245,90,50,14
+    LTEXT           "",IDC_TITLE,55,10,240,15
+    EDITTEXT        IDC_DESCRIPTION,55,25,240,55,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_READONLY | NOT 
+                    WS_BORDER | WS_HSCROLL
+    CONTROL         "&Add to whitelist",IDC_CHKADDTOWHITELIST,"Button",
+                    BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,55,92,63,10
+    PUSHBUTTON      "&Proceed",IDOK,191,90,50,14
+    CONTROL         242,IDC_BITMAP_SHIELD,"Static",SS_BITMAP,10,10,35,28
+END
+
+IDD_OPTIONS_ADVANCED DIALOGEX 0, 0, 225, 286
+STYLE DS_MODALFRAME | WS_POPUP | WS_CLIPCHILDREN | WS_CAPTION | WS_SYSMENU
+CAPTION "Advanced"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    GROUPBOX        "Advanced Options",IDC_STATIC,5,5,215,175,0,
+                    WS_EX_TRANSPARENT
+    CONTROL         "Display ""search"" prompt",IDC_DISPLAY_PROMPT,"Button",
+                    BS_AUTOCHECKBOX | BS_MULTILINE | WS_TABSTOP,15,20,195,10
+    CONTROL         "Download shortcut icon (favicon)",
+                    IDC_CHKDOWNLOADFAVICON,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,15,30,195,10
+    CONTROL         "Show favicons in taskbar",IDC_CHKSHOWFAVICONSINTASKBAR,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,40,195,10
+    CONTROL         "Auto search if address not found",
+                    IDC_CHKSEARCHONDNSFAILURE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,15,50,195,10
+    CONTROL         "Navigate on history selection",IDC_CHKNAVIGATEONHISTSEL,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,60,195,10
+    CONTROL         "Navigate on auto-complete selection",
+                    IDC_CHKNAVIGATEONACSEL,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,15,70,195,10
+    CONTROL         "Use Tab key for auto-complete",IDC_CHKACUSETAB,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,15,80,195,10
+    CONTROL         "Quero context menu extension",
+                    IDC_QUERO_CONTEXT_MENU_EXTENSION,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,15,90,195,10
+    CONTROL         "IE8 &Favorites button (experimental)",
+                    IDC_FAVORITES_BUTTON,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,15,100,125,10
+    CONTROL         "Scale icons on high DPI displays",IDC_DPI_SCALING,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,110,195,10
+    LTEXT           "Quero shortcut key:",IDC_STATIC,15,130,70,10
+    COMBOBOX        IDC_QUEROSHORTCUTKEY,90,127,70,14,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Open search:",IDC_STATIC,15,146,70,10
+    COMBOBOX        IDC_NEWWINTAB_SEARCHBOX,90,143,120,14,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Open cursor search:",IDC_STATIC,15,161,70,10
+    COMBOBOX        IDC_NEWWINTAB_CONTEXTMENU,90,159,120,14,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "User Agent Identification",IDC_STATIC,5,187,215,70,0,
+                    WS_EX_TRANSPARENT
+    EDITTEXT        IDC_CURRENT_USER_AGENT,15,202,195,14,ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER
+    LTEXT           "Customize (requires restart of browser)",IDC_STATIC,15,
+                    216,145,10
+    LTEXT           "Prefix",IDC_STATIC,15,227,45,8
+    EDITTEXT        IDC_UA_PREFIX,15,237,45,14,ES_AUTOHSCROLL
+    LTEXT           "Compatible",IDC_STATIC,65,227,45,8
+    EDITTEXT        IDC_UA_COMPATIBLE,65,237,45,14,ES_AUTOHSCROLL
+    LTEXT           "Version",IDC_STATIC,115,227,45,8
+    EDITTEXT        IDC_UA_VERSION,115,237,45,14,ES_AUTOHSCROLL
+    LTEXT           "Platform",IDC_STATIC,165,227,45,8
+    EDITTEXT        IDC_UA_PLATFORM,165,237,45,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "&Restore defaults",IDC_CMDRESTORE,140,267,74,14
+END
+
+IDD_OPTIONS_SECURITY DIALOGEX 0, 0, 225, 265
+STYLE DS_MODALFRAME | WS_POPUP | WS_CLIPCHILDREN | WS_CAPTION | WS_SYSMENU
+CAPTION "Security"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "Options",IDC_STATIC,5,5,215,115,0,WS_EX_TRANSPARENT
+    CONTROL         "&Highlight core domain",IDC_CHKHIGHLIGHTDOMAIN,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,15,18,155,14
+    CONTROL         "Display SSL &certificate information",
+                    ID_DISPLAY_CERTIFICATE_INFORMATION,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,15,30,155,14
+    CONTROL         "Suspicious &character warning",IDC_CHKIDNWARNING,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,15,42,155,14
+    CONTROL         "Missing &glyphs warning",IDC_CHKMISSGLYPHSWARNING,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,54,155,14
+    CONTROL         "Special &ASCII character warning",
+                    IDC_CHKASCIIRULESWARNING,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,15,66,155,14
+    CONTROL         "&Digit and special ASCII character indicator",
+                    IDC_CHKDIGITASCIIINDICATOR,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,15,78,155,14
+    PUSHBUTTON      "&Manage allowed sites",IDC_CMDWHITELIST,15,95,90,14
+END
+
+IDD_WHITELIST DIALOG DISCARDABLE  0, 0, 358, 319
+STYLE WS_MAXIMIZEBOX | WS_POPUP | WS_CLIPCHILDREN | WS_CAPTION | WS_SYSMENU | 
+    WS_THICKFRAME
+CAPTION "Quero Toolbar | Allowed Sites"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    LTEXT           "Domain of Web site to allow: [example: quero.at]",
+                    IDC_STATIC,10,10,205,8
+    EDITTEXT        IDC_DOMAIN,10,20,205,14,ES_AUTOHSCROLL
+    CONTROL         "Allow &Flash ads",IDC_ALLOW_FLASH,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,15,40,109,10
+    CONTROL         "Allow &banner ads",IDC_ALLOW_BANNER,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,15,54,70,10
+    CONTROL         "Allow ad s&cripts",IDC_ALLOW_ADSCRIPT,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,15,68,81,10
+    CONTROL         "Allow &DIV layer ads",IDC_ALLOW_DIV,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,15,82,77,10
+    CONTROL         "Allow I&FRAME ads",IDC_ALLOW_IFRAME,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,15,96,75,10
+    CONTROL         "Allow &pop-ups",IDC_ALLOW_POPUPS,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,15,110,60,10
+    CONTROL         "Allow &suspicious IDN address",IDC_ALLOW_IDN,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,15,124,130,10
+    CONTROL         "Allow missi&ng glyphs in IDN address",
+                    IDC_ALLOW_MISSGLYPHS,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,15,138,128,10
+    CONTROL         "Select &all",IDC_SELECT_ALL,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,165,40,45,10
+    DEFPUSHBUTTON   "&Save",IDC_ADD,10,161,50,14
+    PUSHBUTTON      "&Remove",IDC_DELETE,64,161,50,14
+    PUSHBUTTON      "R&eset Whitelist",IDC_RESET,211,161,80,14
+    PUSHBUTTON      "Close",IDCANCEL,295,161,50,14
+    LTEXT           "Allowed sites:",IDC_STATIC,10,186,80,8
+    CONTROL         "Allowed sites",IDC_WHITELIST,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | WS_BORDER | WS_TABSTOP,10,196,335,109
+END
+
+IDD_OPTIONS_APPEARANCE DIALOGEX 0, 0, 225, 295
+STYLE DS_MODALFRAME | WS_POPUP | WS_CLIPCHILDREN | WS_CAPTION | WS_SYSMENU
+CAPTION "Appearance"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    GROUPBOX        "Buttons",IDC_STATIC,5,5,215,75,0,WS_EX_TRANSPARENT
+    CONTROL         "Bac&k",IDC_CHKBACKBUTTON,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,15,20,75,10
+    CONTROL         "&Forward",IDC_CHKFORWARDBUTTON,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,15,31,75,10
+    CONTROL         "&Refresh",IDC_CHKREFRESHBUTTON,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,15,42,75,10
+    CONTROL         "&Stop",IDC_CHKSTOPBUTTON,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,15,53,75,10
+    CONTROL         "&Home",IDC_CHKHOMEBUTTON,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,15,64,75,10
+    CONTROL         "",IDC_QUEROBUTTON,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    100,20,85,10
+    CONTROL         "&Go",IDC_CHKGOBUTTON,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,100,31,85,10
+    GROUPBOX        "Appearance",IDC_STATIC,5,85,215,155,0,WS_EX_TRANSPARENT
+    CONTROL         "IE n&avigation and tab bar (requires administrator) *",
+                    IDC_IE_NAVIGATION_BAR,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,15,100,172,10
+    CONTROL         "&IE address box / navigation buttons",
+                    IDC_IE_ADDRESS_BOX,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    15,111,128,10
+    CONTROL         "IE page title in title bar",IDC_IE_SHOW_CAPTION,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,15,121,85,10
+    CONTROL         "IE white title bar text",IDC_IE_CAPTION_WHITE_TEXT,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,132,120,10
+    CONTROL         "Toolbar &close button",IDC_TOOLBAR_CLOSE_BUTTON,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,15,144,81,10
+    CONTROL         "&White Quero button",IDC_WHITE_QUERO_BUTTON,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,15,156,78,10
+    CONTROL         "&Quero search box",IDC_SHOWSEARCHBOX,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,15,168,155,10
+    CONTROL         "Quero search &engine select box",
+                    IDC_SHOWSEARCHENGINECBOX,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,15,180,155,10
+    CONTROL         "Aero &Theme (requires Windows Vista or later)",
+                    IDC_ENABLEAEROTHEME,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,15,192,155,10
+    LTEXT           "F&ont size:",IDC_STATIC,15,209,40,10
+    COMBOBOX        IDC_CBOFONTSIZE,61,206,80,14,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Font &color:",IDC_STATIC,15,225,40,10
+    COMBOBOX        IDC_CBOFONTCOLOR,61,222,80,14,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Quero Theme *",IDC_STATIC,5,245,215,35,0,
+                    WS_EX_TRANSPARENT
+    LTEXT           "File:",IDC_STATIC,15,264,25,10
+    EDITTEXT        IDC_QUEROTHEME_FILENAME,45,261,110,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "&Browse...",IDC_QUEROTHEME_BROWSE,160,261,50,14
+    LTEXT           "* requires restart of Internet Explorer",IDC_STATIC,15,
+                    283,200,8
+END
+
+IDD_OPTIONS_ADBLOCKER DIALOGEX 0, 0, 225, 265
+STYLE DS_MODALFRAME | WS_POPUP | WS_CLIPCHILDREN | WS_CAPTION | WS_SYSMENU
+CAPTION "Ad Blocker"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "Ad Blocker",IDC_STATIC,5,5,215,150,0,WS_EX_TRANSPARENT
+    CONTROL         "&Hide Flash ads",IDC_HIDE_FLASH,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,15,20,155,10
+    CONTROL         "Block &ads",IDC_BLOCK_ADS,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,15,34,155,9
+    CONTROL         "Block &Flash ads",IDC_BLOCK_FLASH,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,27,46,145,10
+    CONTROL         "Block &banner ads",IDC_BLOCK_BANNER,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,27,56,145,10
+    CONTROL         "Block ad s&cripts from Google, etc.",IDC_BLOCK_ADSCRIPT,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,27,66,148,10
+    CONTROL         "Block &DIV layer ads",IDC_BLOCK_DIV,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,27,76,145,10
+    CONTROL         "Block I&FRAME ads",IDC_BLOCK_IFRAME,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,27,86,145,10
+    CONTROL         "Block &pop-ups",IDC_BLOCK_POPUPS,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,15,100,155,10
+    CONTROL         "Block &unwanted pop-ups",
+                    IDC_RDOPOPUPBLOCKER_BLOCKUNWANTED,"Button",
+                    BS_AUTORADIOBUTTON,27,112,145,10
+    CONTROL         "Bloc&k all pop-ups",IDC_RDOPOPUPBLOCKER_BLOCKALL,"Button",
+                    BS_AUTORADIOBUTTON,27,122,145,10
+    CONTROL         "Play a &sound when a pop-up is blocked",
+                    IDC_CHKPOPUPBLOCKER_PLAYSOUND,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,27,134,145,10
+    GROUPBOX        "Exceptions",IDC_STATIC,5,160,215,65,0,WS_EX_TRANSPARENT
+    CONTROL         "&Disable ad blocker for local Web sites",
+                    IDC_DISABLE_AD_BLOCKER_FOR_LOCAL_WEB_SITES,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,15,175,165,10
+    CONTROL         "&Disable ad blocker for https Web sites",
+                    IDC_DISABLE_AD_BLOCKER_FOR_HTTPS_WEB_SITES,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,15,187,165,10
+    PUSHBUTTON      "&Manage allowed sites",IDC_CMDWHITELIST,15,200,90,14
+    LTEXT           "In order to block ads in IE9 or higher, subscribe to the Quero AdBlock IE Tracking Protection List on http://www.quero.at/ and enable ""Hide Flash Ads"" here.",
+                    IDC_STATIC_AD_BLOCKER_NOTE,27,45,150,50
+END
+
+IDD_ZOOMFACTOR DIALOG DISCARDABLE  0, 0, 175, 60
+STYLE DS_MODALFRAME | WS_POPUP | WS_CLIPCHILDREN | WS_CAPTION | WS_SYSMENU
+CAPTION "Custom Zoom"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    LTEXT           "Zoom in %",IDC_STATIC,10,12,45,10
+    EDITTEXT        IDC_EDIT_ZOOMFACTOR,61,10,50,14,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    CONTROL         "Zoom in %",IDC_SPIN_ZOOMFACTOR,"msctls_updown32",
+                    UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | 
+                    UDS_ARROWKEYS | UDS_NOTHOUSANDS,110,10,11,14
+    DEFPUSHBUTTON   "OK",IDOK,61,40,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,115,40,50,14
+END
+
+IDD_RESIZEWINDOW DIALOG DISCARDABLE  0, 0, 175, 75
+STYLE DS_MODALFRAME | WS_POPUP | WS_CLIPCHILDREN | WS_CAPTION | WS_SYSMENU
+CAPTION "Resize Window"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    LTEXT           "Width:",IDC_STATIC,10,11,45,10
+    EDITTEXT        IDC_EDIT_WIDTH,61,10,50,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Pixels",IDC_STATIC,115,11,50,10
+    LTEXT           "Height:",IDC_STATIC,10,32,45,10
+    EDITTEXT        IDC_EDIT_HEIGHT,61,30,50,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Pixels",IDC_STATIC,115,32,50,10
+    DEFPUSHBUTTON   "OK",IDOK,61,55,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,115,55,50,14
+END
+
+IDD_OPTIONS_PROFILES DIALOG DISCARDABLE  0, 0, 225, 295
+STYLE DS_MODALFRAME | WS_POPUP | WS_CLIPCHILDREN | WS_CAPTION | WS_SYSMENU
+CAPTION "Search Profiles"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    LTEXT           "Search Profiles:",IDC_STATIC,5,5,75,8
+    LISTBOX         IDC_PROFILES_LIST,5,15,75,270,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Search Engines:",IDC_STATIC,80,5,75,8
+    LISTBOX         IDC_ENGINES_LIST,80,15,75,270,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Move &up",IDC_PROFILES_MOVE_UP,165,15,50,14
+    PUSHBUTTON      "&Move down",IDC_PROFILES_MOVE_DOWN,165,33,50,14
+    PUSHBUTTON      "&New...",IDC_PROFILES_NEW,165,52,50,14
+    PUSHBUTTON      "+ se&parator",IDC_PROFILES_INSERT_SEPARATOR,165,71,50,
+                    14
+    PUSHBUTTON      "&Edit...",IDC_PROFILES_EDIT,165,89,50,14
+    PUSHBUTTON      "&Delete",IDC_PROFILES_DELETE,165,108,50,14
+    PUSHBUTTON      "&Rename",IDC_PROFILES_RENAME,165,127,50,14
+    PUSHBUTTON      "&Set default",IDC_PROFILES_SET_DEFAULT,165,145,50,14
+    PUSHBUTTON      "Reset",IDC_PROFILES_RESET,165,270,50,14
+END
+
+IDD_SEARCHPROFILE DIALOGEX 0, 0, 226, 121
+STYLE WS_POPUP | WS_CLIPCHILDREN | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "Add Search Profile"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "Search Profile",IDC_STATIC_FRAME,5,5,215,90,0,
+                    WS_EX_TRANSPARENT
+    LTEXT           "&Name: *",IDC_STATIC,15,20,195,8
+    EDITTEXT        IDC_PROFILE_NAME,15,30,195,14,ES_AUTOHSCROLL
+    LTEXT           "&Ctrl+Enter\nExample: http://www.{searchTerms}.com/",
+                    IDC_STATIC,15,50,195,18
+    EDITTEXT        IDC_PROFILE_LUCKYSEARCH,15,68,195,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,116,100,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,170,100,50,14
+    LTEXT           "* required",IDC_STATIC,15,102,69,8
+END
+
+IDD_SEARCHENGINE DIALOGEX 0, 0, 226, 276
+STYLE WS_POPUP | WS_CLIPCHILDREN | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "Add Search Engine"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "Search Engine",IDC_STATIC_FRAME,5,5,215,245,0,
+                    WS_EX_TRANSPARENT
+    LTEXT           "&Name: *",IDC_STATIC,15,20,195,8
+    EDITTEXT        IDC_ENGINE_NAME,15,30,195,14,ES_AUTOHSCROLL
+    LTEXT           "&URL: *\nExample: http://www.example.com/search?q={searchTerms}",
+                    IDC_STATIC,15,50,195,18
+    EDITTEXT        IDC_ENGINE_QUERYURL,15,68,195,14,ES_AUTOHSCROLL
+    LTEXT           "&Link:",IDC_STATIC,15,88,195,8
+    EDITTEXT        IDC_ENGINE_LINKURL,15,98,195,14,ES_AUTOHSCROLL
+    LTEXT           "&Encoding: *",IDC_STATIC,15,118,75,8
+    COMBOBOX        IDC_ENGINE_ENCODING,15,128,85,14,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "&HTTP POST data:\nExample: q={searchTerms}",IDC_STATIC,
+                    15,148,195,18
+    EDITTEXT        IDC_ENGINE_POSTQUERY,15,166,195,14,ES_AUTOHSCROLL
+    LTEXT           "&Country-specific search parameter:",IDC_STATIC,15,186,
+                    195,10
+    EDITTEXT        IDC_ENGINE_COUNTRYPARAM,15,196,195,14,ES_AUTOHSCROLL
+    LTEXT           "&Icon file:",IDC_STATIC,15,216,75,8
+    EDITTEXT        IDC_ENGINE_ICON,15,226,140,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "&Browse...",IDC_ENGINE_ICON_BROWSE,160,225,50,14
+    DEFPUSHBUTTON   "OK",IDOK,116,255,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,170,255,50,14
+    LTEXT           "* required",IDC_STATIC,15,258,69,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_OPTIONS_SETTINGS, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 246
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_PROJNAME            "Quero"
+    IDS_PROMPT              "search"
+    IDS_EMPTY               "(empty)"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_POPUPBLOCKED        "Quero Toolbar has blocked a pop-up."
+    IDS_CONTENTBLOCKED      "Quero Toolbar has removed content from this page."
+    IDS_HIGHLIGHTING        "Highlighting: "
+    IDS_ON                  "On"
+    IDS_OFF                 "Off"
+    IDS_LUCKYSEARCH         "Ctrl+Enter"
+    IDS_FIND_FINISHED       "Finished searching the document."
+    IDS_FIND_NOTFOUND       "Phrase not found."
+    IDS_CTXMENU_HIGHLIGHT   "Highlight"
+    IDS_CTXMENU_GOTOURL     "Go to URL"
+    IDS_BLOCKED_MENU_1DIV   "%d DIV layer blocked."
+    IDS_BLOCKED_MENU_NDIVS  "%d DIV layers blocked."
+    IDS_BLOCKED_MENU_1ADSCRIPT "%d script blocked."
+    IDS_BLOCKED_MENU_NADSCRIPTS "%d scripts blocked."
+    IDS_BLOCKED_MENU_BLOCK_ADS "Block Ads"
+    IDS_BLOCKED_MENU_BLOCK_POPUPS "Block Pop-ups"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_HINT_REFRESH        "Refresh (F5)"
+    IDS_HINT_STOP           "Stop (Esc)"
+    IDS_HINT_HOME           "Home (Alt+Home)"
+    IDS_HINT_IDN            "Internationalized Domain Name (double click to show ASCII domain)"
+    IDS_HINT_123            "Digit/special character indicator"
+    IDS_HINT_LOCK           "Show security certificate"
+    IDS_HINT_CONTENTBLOCKED "View blocked content (Ctrl+Shift+B)"
+    IDS_BLOCKED_MENU_HIDE_FLASH "Hide Flash Ads"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_BLOCKED_MENU_ALLOWED_SITES "Allow Content..."
+    IDS_HISTORY             "History\tCtrl+H"
+    IDS_PASTE_AND_GO        "Paste and &Go"
+    IDS_BLOCKED_MENU_TEMP_UNBLOCK "Temporarily Disable Ad Blocker"
+    IDS_UP_ONE_LEVEL        "&Up One Level"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_HINT_FIND           "Find (F3,F2)"
+    IDS_HINT_QUERO_ALT_Q    "Quero (Alt+Q)"
+    IDS_HINT_QUERO_ALT_SHIFT_Q "Quero (Alt+Shift+Q)"
+    IDS_HINT_GOTOURL        "Go to ""%s"""
+    IDS_HINT_GOTOENGINE     "Go to %s"
+    IDS_HINT_QUERY          "Query ""%s"""
+    IDS_HINT_BACK           "Back (Alt+Left)"
+    IDS_HINT_BACK_TO        "Back to %s (Alt+Left)"
+    IDS_HINT_FORWARD        "Forward (Alt+Right)"
+    IDS_HINT_FORWARD_TO     "Forward to %s (Alt+Right)"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_HELP_FINDONPAGE     "Searches for text on this page."
+    IDS_HELP_SELECTPROFILE  "Selects the profile of available search engines."
+    IDS_HELP_SELECTDEFAULT  "Selects the default search engine for the active profile."
+    IDS_HELP_APPEARANCE     "Selects the font size or font color of Quero's input box."
+    IDS_HELP_RESIZE         "Resizes your browser window to the selected dimensions."
+    IDS_HELP_HIGHLIGHT      "Toggles automatic highlighting of search terms. (Alt+Shift+H)"
+    IDS_HELP_BLOCKADS       "Toggles ad blocker. (Ctrl+Ins)"
+    IDS_HELP_HIDEFLASHADS   "Hides Adobe Flash ads on the current page. (Ctrl+Del)"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_HELP_BLOCKPOPUPS    "Toggles blocking of pop-ups. Hold down Ctrl+Alt to let individual pop-ups through."
+    IDS_HELP_CLEARHISTORY   "Clears your personal search history."
+    IDS_HELP_ABOUT          "Displays Quero Toolbar version and copyright information."
+    IDS_HELP_ZOOM           "Specifies the magnification level of Web pages."
+    IDS_HELP_OPTIONS        "Changes toolbar settings."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_OPTIONS_TITLE       "Quero Toolbar Options"
+    IDS_OPTION_STANDARD     "Standard"
+    IDS_OPTION_MEDIUM       "Medium"
+    IDS_OPTION_LARGE        "Large"
+    IDS_OPTION_GREENBLUE    "Green-Blue"
+    IDS_OPTION_BLACK        "Black"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_CODEPAGE_Chinese_Traditional_BIG5 "Chinese Traditional"
+    IDS_CODEPAGE_Cyrillic   "Cyrillic"
+    IDS_CODEPAGE_Greek      "Greek"
+    IDS_CODEPAGE_Hebrew     "Hebrew"
+    IDS_CODEPAGE_Japanese   "Japanese"
+    IDS_CODEPAGE_Korean     "Korean"
+    IDS_CODEPAGE_Thai       "Thai"
+    IDS_CODEPAGE_Turkish    "Turkish"
+    IDS_CODEPAGE_Vietnamese "Vietnamese"
+    IDS_CODEPAGE_Western_European "Western European"
+    IDS_OPTION_PINK         "Pink"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_OPTION_CTRL_Q       "Ctrl + Q"
+    IDS_OPTION_ALT_Q        "Alt + Q"
+    IDS_OPTION_ALT_D        "Alt + D"
+    IDS_OPTION_ALT_S        "Alt + S"
+    IDS_OPTION_OPEN_SAMEWINDOW "in same window/tab"
+    IDS_OPTION_OPEN_NEWWINDOW "in new window"
+    IDS_OPTION_OPEN_NEWTAB  "in new tab"
+    IDS_OPTION_OPEN_BACKGROUNDTAB "in background tab"
+    IDS_PROFILES_DEFAULT    " (default)"
+    IDS_EDIT_SEARCH_PROFILE "Edit Search Profile"
+    IDS_EDIT_SEARCH_ENGINE  "Edit Search Engine"
+    IDS_CODEPAGE_UTF8       "Unicode (UTF-8)"
+    IDS_CODEPAGE_Arabic     "Arabic"
+    IDS_CODEPAGE_Baltic     "Baltic"
+    IDS_CODEPAGE_Central_European "Central European"
+    IDS_CODEPAGE_Chinese_Simplified_GB2312 "Chinese Simplified"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_WL_ALLOW            "allow"
+    IDS_WL_DEFAULT          " "
+    IDS_WL_SITE             "Site"
+    IDS_WL_FLASH            "Flash"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_WL_BANNER           "Banner"
+    IDS_WL_ADSCRIPT         "Scripts"
+    IDS_WL_DIV              "DIV"
+    IDS_WL_IFRAME           "IFRAMES"
+    IDS_WL_POPUPS           "Pop-ups"
+    IDS_WL_IDN              "IDN"
+    IDS_WL_GLYPHS           "Glyphs"
+    IDS_WL_CONFIRM_RESET    "Are you sure you want to reset your whitelist?"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_WARN_IDN_TITLE      "Suspicious IDN address"
+    IDS_WARN_IDN_DESC       "The following host name contains suspicious characters:\r\n"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_WARN_ILLEGAL_URL_TITLE "Illegal URL"
+    IDS_WARN_ILLEGAL_URL_DESC "The following URL is invalid:\r\n"
+    IDS_WARN_MISSGLYPHS_TITLE "Missing character glyphs"
+    IDS_WARN_MISSGLYPHS_DESC 
+                            "Not all characters in the host name are correctly\r\ndisplayed in the selected font:\r\n"
+    IDS_WARN_ASCIIRULES_VIOLATION_TITLE "ASCII rules violated"
+    IDS_WARN_ASCIIRULES_VIOLATION_DESC 
+                            "The following host name contains special ASCII characters:\r\n"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ERR_QUERYTOOLONG    "Sorry, your query or address is too long!"
+    IDS_ERR_PUBLOCKER_UNAVAILABLE 
+                            "Quero Pop-up Blocker is currently unavailable."
+    IDS_ERR_WL_OVERFLOW     "Maximum number of whitelist entries reached!"
+    IDS_ERR_WL_PATTERNINVALID "Domain pattern not valid!"
+    IDS_ERR_WL_PATTERNNOTFOUND "Whitelist entry not found!"
+    IDS_ERR_PROFILES_OVERFLOW "Maximum number of search profiles reached!"
+    IDS_ERR_SE_OVERFLOW     "Maximum number of search engine entries reached!"
+    IDS_ERR_REQUIRED_FIELDS "Please fill out all required fields!"
+    IDS_ERR_OPERATION_LOCKED 
+                            "This operation has been locked by the administrator."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_TIP_QUERO_SHORTCUT  "Tip: Use the following keyboard shortcut to access the Quero menu:\n\n"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+1 TYPELIB "Quero.tlb"
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

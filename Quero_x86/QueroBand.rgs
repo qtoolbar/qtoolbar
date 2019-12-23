@@ -1,0 +1,26 @@
+HKCR
+{
+	Quero.QueroBand.1 = s 'Quero'
+	{
+		CLSID = s '{A411D7F4-8D11-43EF-BDE4-AA921666388A}'
+	}
+	Quero.QueroBand = s 'Quero'
+	{
+		CLSID = s '{A411D7F4-8D11-43EF-BDE4-AA921666388A}'
+		CurVer = s 'Quero Toolbar'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {A411D7F4-8D11-43EF-BDE4-AA921666388A} = s '&Quero'
+		{
+			ProgID = s 'Quero Toolbar'
+			VersionIndependentProgID = s 'Quero Toolbar'
+			ForceRemove 'Programmable'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			'TypeLib' = s '{8A2092A7-55D2-433F-B700-4D36902B39B5}'
+		}
+	}
+}

@@ -1,14 +1,15 @@
-# qtoolbar
-Quero Toolbar http://www.quero.at/
-
+# Quero Toolbar
 Version 8
 
 Navigation Bar and Ad Blocker project for Internet Explorer
 
-Copyright 2004-2015 Viktor Krammer
+Copyright 2004-2013 Viktor Krammer
 
 Open source license
 GNU General Public License v3
+
+Website
+http://www.quero.at/
 
 Email
 support at quero.at

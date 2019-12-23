@@ -28,7 +28,7 @@ support at quero.at
 
 /////////////////////////////////////////////////////////////////////
 
-1 Requirements
+## 1 Requirements ##
 
 * MS Windows 2000 or higher (Windows 8 and x64 supported)
 * MS Internet Explorer 5.5 or higher (IE11 supported)
@@ -40,7 +40,7 @@ support at quero.at
   http://www.jrsoftware.org/
 
 
-2 Software components
+## 2 Software components ##
 
 * Quero.dll
   Internet Explorer add-on (BHO, IQueroBand, IQueroFilter)
@@ -61,7 +61,7 @@ support at quero.at
   based on Inno Setup
 
 
-3 Build instructions
+## 3 Build instructions ##
 
 * Visual Studio 2005 solution files included
 * Build different platform versions by replacing the Build.h
@@ -69,27 +69,32 @@ support at quero.at
 * Build the German version by replacing
   Quero.rc with Quero_DE.rc
 * Building the x64 version
+
   copy the source files into the Quero_x64 folder
+  
   copy the _x64 Build file to Build.h
 
 
-4 Component registration
+## 4 Component registration ##
 
 * Register
+  ```
   QueroBroker.exe /RegServer
   regsvr32 Quero.dll
+  ```
 * Unregister
+  ```
   regsvr32 /u Quero.dll
   QueroBroker.exe /UnregServer
+  ```
 
-
-5 Registry keys
+## 5 Registry keys ##
 
 * Main settings under Windows 2000, XP
   [HKEY_CURRENT_USER\Software\Quero Toolbar]
 * Main settings under Windows 7 and Windows Vista
   [HKEY_CURRENT_USER\Software\AppDataLow\Software\Quero Toolbar]
-* Main settings under Windows 8
+* Main settings under Windows 8 and Windows 10
   [HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\InternetRegistry\Software\Quero Toolbar]
 * Default search profile key
   [HKEY_USERS\.DEFAULT\Software\Quero Toolbar\Profiles]

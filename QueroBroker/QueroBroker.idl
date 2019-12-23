@@ -1,0 +1,48 @@
+// QueroBroker.idl : IDL source for QueroBroker
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (QueroBroker.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	object,
+	uuid(81281C00-D843-45EA-B00B-FA4C5D177AED),
+	dual,
+	nonextensible,
+	helpstring("IQueroBroker Interface"),
+	pointer_default(unique)
+]
+interface IQueroBroker : IDispatch{
+	[id(1), helpstring("method Hook_IEFrame")] HRESULT Hook_IEFrame([in] LONG hwnd_IEFrame, LONG hwnd_QToolbar, [in] UINT Options, [in] UINT Options2, [in] INT IE_MajorVersion);
+	[id(2), helpstring("method Unhook_IEFrame")] HRESULT Unhook_IEFrame([in] LONG hwnd_IEFrame);
+	[id(3), helpstring("method SetOptions")] HRESULT SetOptions([in] UINT Options, [in] UINT Options2, [in] UINT UpdateQueroInstances);
+	[id(4), helpstring("method SetDwmFrameTopMargin")] HRESULT SetDwmFrameTopMargin([in] LONG hwnd_IEFrame, [in] INT NewDwmFrameTopMargin);
+	[id(5), helpstring("method GetDwmFrameTopMargin")] HRESULT GetDwmFrameTopMargin([in] LONG hwnd_IEFrame);
+	[id(6), helpstring("method SetTitle")] HRESULT SetTitle([in] LONG hwnd_IEFrame, [in] BSTR bstrTitle);
+	[id(7), helpstring("method SetIcon")] HRESULT SetIcon([in] LONG hwnd_IEFrame, [in] LONG hIcon);
+	[id(8), helpstring("method PostMessageToIE")] HRESULT PostMessageToIE([in] LONG hwnd_IEFrame, [in] UINT uMsg, [in] WPARAM wParam, [in] LPARAM lParam);
+	[id(9), helpstring("method IsTabbedBrowsing")] HRESULT IsTabbedBrowsing([in] LONG hwnd_IEFrame);
+	[id(10), helpstring("method SetWindowPos")] HRESULT SetWindowPos([in] LONG hwnd_IEFrame, [in] LONG hwnd_InsertAfter, [in] INT x, [in] INT y, [in] INT cx, [in] INT cy, [in] UINT uFlags);
+	[id(11), helpstring("method RegWrite_DWORD")] HRESULT RegWrite_DWORD([in] LONG hwnd_IEFrame, [in] UINT ValueId, [in] DWORD dwValue, [in] BOOL bDeleteValue);
+	[id(12), helpstring("method RegRead_DWORD")] HRESULT RegRead_DWORD([in] UINT ValueId, [out] DWORD* pValue);
+};
+[
+	uuid(50993D1F-16B5-4137-A544-A5D0EE1958DB),
+	version(1.0),
+	helpstring("QueroBroker 1.0 Type Library")
+]
+library QueroBrokerLib
+{
+	importlib("stdole2.tlb");
+	[
+		uuid(5C97B747-C367-4BDF-AE2A-C1AB8EAED74B),
+		helpstring("QueroBroker Class")
+	]
+	coclass QueroBroker
+	{
+		[default] interface IQueroBroker;
+	};
+};

@@ -1,0 +1,24 @@
+HKCR
+{
+	QueroBroker.QueroBroker.1 = s 'QueroBroker Class'
+	{
+		CLSID = s '{5C97B747-C367-4BDF-AE2A-C1AB8EAED74B}'
+	}
+	QueroBroker.QueroBroker = s 'QueroBroker Class'
+	{
+		CLSID = s '{5C97B747-C367-4BDF-AE2A-C1AB8EAED74B}'
+		CurVer = s 'QueroBroker.QueroBroker.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {5C97B747-C367-4BDF-AE2A-C1AB8EAED74B} = s 'QueroBroker Class'
+		{
+			ProgID = s 'QueroBroker.QueroBroker.1'
+			VersionIndependentProgID = s 'QueroBroker.QueroBroker'
+			ForceRemove 'Programmable'
+			LocalServer32 = s '%MODULE%'
+			val AppID = s '%APPID%'
+			'TypeLib' = s '{50993D1F-16B5-4137-A544-A5D0EE1958DB}'
+		}
+	}
+}

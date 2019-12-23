@@ -1,0 +1,11 @@
+HKCR
+{
+	NoRemove AppID
+	{
+		'%APPID%' = s 'QueroBroker'
+		'QueroBroker.EXE'
+		{
+			val AppID = s '%APPID%'
+		}
+	}
+}
